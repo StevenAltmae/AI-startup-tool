@@ -6,7 +6,7 @@
     <link href="/dist/output.css" rel="stylesheet">
     <title>Document</title>
 </head>
-<body class="bg-black">
+<body class="bg-black text-white">
     <nav class="px-5">
         <div id="nav-container" class="py-8 w-full">
             <div class="flex justify-between mx-10 items-center" id="nav-content">
@@ -35,7 +35,7 @@
         <div>
             <div id="header_content">
                 <div id="header-content_header" class="flex flex-col items-center gap-6">
-                    <span class="text-9xl font-bold bg-gradient-to-r from-indigo-500 to-purple-500 text-transparent bg-clip-text">Ai startup tool</span>
+                    <span class="text-7xl bg-gradient-to-r from-indigo-500 to-purple-500 text-transparent bg-clip-text font-light">Ai startup tool</span>
                     <p class="text-[#FF3BFF]">ELEVATE EVERY ASPECT</p>
                 </div>
                 <div id="header_img" class="flex justify-center">
@@ -46,39 +46,103 @@
     </section>
 
     <section id="benefits">
-        <div>
-            <div id="benefits_content-header">
-                <h2>Full Power Personal Branding</h2>
+        <div class="p-12">
+            <div id="benefits_content-header" class="flex flex-col items-center py-28">
+                <span class="text-5xl bg-gradient-to-r from-indigo-500 to-purple-500 text-transparent bg-clip-text">Full Power Personal Branding</span>
                 <p>revolutionizing businesses with seamless AI integration</p>
             </div>
-            <div id="benefits_component">
+            <div id="benefits_component" class="flex justify-around w-full">
                 <div>
                     <img src="" alt="">
                 </div>
-                <div id="benefits_content">
-                    <h2>Title Copy Goes Here Be Awesome</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
+                <div id="benefits_content" class="w-5/12 ">
+                    <h2 class="text-6xl py-8 font-bold">Title Copy Goes Here Be Awesome</h2>
+                    <p class="text-xs font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
                 </div>
-                <div id="benefits_list">
+                <div id="benefits_list" class="w-5/12 bg-[#181924] p-6 rounded-xl">
                     <div id="benefits_list-wrapper">
-                        <div id="benefits_item">
-                            <img src="/src/Images/Stack.png" alt="">
-                            <h1>Tailoring posts</h1>
-                            <p>for various social networks to maximize exposure and audience engagement</p>
+                        <div id="benefits_item" class="flex pb-6">
+                            <img class="object-none pr-6" src="/src/Images/Stack.png" alt="">
+                            <div class="flex flex-col">
+                                <h1 class="text-2xl font-light py-2">Tailoring posts</h1>
+                                <p>for various social networks to maximize exposure and audience engagement</p>
+                            </div>
                         </div>
-                        <div id="benefits_item2">
-                            <img src="/src/Images/Stack2.png" alt="">
-                            <h1>Auto-engaging</h1>
-                            <p>with your audience to strengthen your online presence and profile score</p>
+                        <div id="divider" class="bg-white h-[1px] w-full"></div>
+                        <div id="benefits_item2" class="flex pt-6">
+                            <img class="object-none pr-6" src="/src/Images/Stack2.png" alt="">
+                            <div class="flex flex-col">
+                                <h1 class="text-2xl font-light py-2">Auto-engaging</h1>
+                                <p>with your audience to strengthen your online presence and profile score</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <div id="benefits_component" class="flex justify-around w-full py-28">
+                <div>
+                    <img src="" alt="">
+                </div>
+                <div id="benefits_list" class="w-5/12 bg-[#181924] p-6 rounded-xl">
+                    <div id="benefits_list-wrapper">
+                        <div id="benefits_item" class="flex pb-6">
+                            <img class="object-none pr-6" src="/src/Images/Stack.png" alt="">
+                            <div class="flex flex-col">
+                                <h1 class="text-2xl font-light py-2">Tailoring posts</h1>
+                                <p>for various social networks to maximize exposure and audience engagement</p>
+                            </div>
+                        </div>
+                        <div id="divider" class="bg-white h-[1px] w-full"></div>
+                        <div id="benefits_item2" class="flex pt-6">
+                            <img class="object-none pr-6" src="/src/Images/Stack2.png" alt="">
+                            <div class="flex flex-col">
+                                <h1 class="text-2xl font-light py-2">Auto-engaging</h1>
+                                <p>with your audience to strengthen your online presence and profile score</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="benefits_content" class="w-5/12 ">
+                    <h2 class="text-6xl py-8 font-bold">Title Copy Goes Here Be Awesome</h2>
+                    <p class="text-xs font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
+                </div>
+                
+            </div>
         </div>
     </section>
 
-    <section id="cards">
-
+    <section id="cards" class="">
+        <div class="flex flex-col items-center pb-24">
+            <span class="text-6xl bg-gradient-to-r from-indigo-500 to-purple-500 text-transparent bg-clip-text">Proactive and Reactive Modes</span>
+            <p class="text-2xl">Stay Ahead in the Branding game Content:</p>
+        </div>
+        <div class="flex justify-center">
+            <div class="grid grid-cols-2 w-1/2 gap-14">
+                <div class="bg-[#181924] h-[400px] flex flex-col justify-between py-8 px-6 rounded-3xl">
+                    <div class="flex flex-col items-center">
+                    <h1 class="text-4xl py-2"><span class="bg-gradient-to-r from-indigo-500 to-purple-500 text-transparent bg-clip-text">Proactive</span> mode:</h1>
+                    <p class="font-light text-lg">Regularly publish thought pieces and engage with your audience</p>
+                    </div>
+                    <button class="bg-[#4F4CE5] text-white rounded-full w-52 h-12">CHOOSE THIS MODE</button>
+                </div>
+                <div class="bg-[#181924] h-[400px] flex flex-col justify-between py-8 px-6 rounded-3xl">
+                    <div class="flex flex-col items-center">
+                    <h1 class="text-4xl py-2"><span class="bg-gradient-to-r from-indigo-500 to-purple-500 text-transparent bg-clip-text">Proactive</span> mode:</h1>
+                    <p class="font-light text-lg">Regularly publish thought pieces and engage with your audience</p>
+                    </div>
+                    <button class="bg-[#4F4CE5] text-white rounded-full w-52 h-12">CHOOSE THIS MODE</button>
+                </div>
+            </div>
+        </div>
+        <div class="flex justify-center py-12">
+            <div class="bg-[#181924] h-[350px] w-1/2 flex flex-col justify-between py-8 px-6 rounded-3xl">
+                <div class="flex flex-col items-center">
+                <h1 class="text-4xl py-2"><span class="bg-gradient-to-r from-indigo-500 to-purple-500 text-transparent bg-clip-text">Seamlessly</span> switch between modes:</h1>
+                <p class="font-light text-lg">Regularly publish thought pieces and engage with your audience</p>
+                </div>
+                <button class="bg-[#4F4CE5] text-white rounded-full w-52 h-12">CHOOSE THIS MODE</button>
+            </div>
+        </div>
     </section>
 
     <section id="info">
@@ -101,9 +165,38 @@
 
     </section>
 
-    <footer>
+    <footer class="py-8 px-16">
+        <div class="flex justify-between">
+            <div>
+                <span class="text-xl font-bold bg-gradient-to-r from-indigo-500 to-purple-500 text-transparent bg-clip-text">Ai Startup</span>
+            </div>
+            <div id="company" class="flex flex-col gap-2">
+                <h1 class="font-bold mb-6">COMPANY</h1>
+                <p class="font-extralight">How it works</p>
+                <p class="font-extralight">Pricing</p>
+                <p class="font-extralight">Demo</p>
+            </div>
+            <div id="resources" class="flex flex-col gap-2">
+                <h1 class="font-bold mb-6">RESOURCES</h1>
+                <p class="font-extralight">Blog post name goes here</p>
+                <p class="font-extralight">Blog post name goes here</p>
+                <p class="font-extralight">See all resources</p>
+            </div>
+            <div id="about" class="flex flex-col gap-2">
+                <h1 class="font-bold mb-6">ABOUT</h1>
+                <p class="font-extralight">Terms & Conditions</p>
+                <p class="font-extralight">Privacy Policy</p>
+            </div>
+        </div>
+        <div id="divider" class="bg-white h-[1px] w-full mt-12 mb-6"></div>
 
+        <div class="flex justify-center font-extralight">
+            <p>Copyright © 2022 Company name</p>
+        </div>
+
+        <div class="flex justify-center pt-16">
+            <p class="text-4xl">Your Personal AI-Powered Branding Expert</p>
+        </div>
     </footer>
-
 </body>
 </html>
